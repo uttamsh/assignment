@@ -40,11 +40,12 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
     <nav class="top-nav">
         <div class="top-nav-title">
-            <a href="/"><span>Cake</span>PHP</a>
+            <a href="/"><span>Assignment</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" href="https://book.cakephp.org/4/">Documentation</a>
-            <a target="_blank" href="https://api.cakephp.org/4/">API</a>
+            <!-- <a target="_blank" href="https://api.cakephp.org/4/">API</a> -->
+            <?= $this->Html->link("Exercises 1/3",['controller'=>'routers','action'=>'index'])?>
+            <?= $this->Html->link("Exercises 2",['controller'=>'exercises','action'=>'index'])?>
         </div>
     </nav>
     <main class="main">
